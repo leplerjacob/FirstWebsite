@@ -1,0 +1,347 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body, html {
+  line-height: 1.7em;
+  font-family: 'Courier New', Courier, monospace;
+}  
+
+a {
+  text-decoration: none;
+}
+
+/* Utilities */
+
+.text-primary {
+  color: #cceb34;
+}
+
+.container {
+  margin: auto;
+  overflow: auto;
+  padding: 0 20px;
+  max-width: 1024px;
+}
+
+h1, h2, h3 {
+  padding-bottom: 20px;
+}
+
+.l-header {
+  font-size: 3em;
+  padding-top: 20px;
+}
+
+.m-header {
+  font-size: 2em;
+  padding-top: 20px
+}
+
+.btn {
+  padding: 20px;
+  background: #333;
+  color: #cceb34;
+  border: none;
+  display: inline-block;
+  cursor: pointer;
+  border-radius: 10px;
+}
+
+.clr {
+  clear: both;
+}
+
+.box {
+  float: left;
+  padding: 20px;
+  text-align: center;
+  width: 33.3%;
+}
+
+.bg-blue {
+  background: #3c84ce;
+}
+
+.bg-light {
+  background: #ffefb0;
+}
+
+/* End Utilities */
+
+/******* Header *******/
+
+#navbar {
+  background: #333;
+  width: 100%;
+  overflow: auto;
+}
+
+#navbar h1 a {
+  color: #f4f7e4;
+}
+
+#navbar h1 {
+  display: block;
+  float: left;
+  color: #fefefe;
+  margin: 10px 0 0 10px;
+  font-size: 2em;
+  padding-top: 10px;
+}
+
+#navbar ul {
+  float: right;
+  list-style: none;
+}
+
+#navbar ul li {
+  display: inline-block;
+}
+
+#navbar ul li a{
+  display: block;
+  text-align: center;
+  text-decoration: none;
+  padding: 20px;
+  color: #f4f7e4;
+}
+
+#navbar ul li a:hover {
+  color: #000000; 
+  background: #eba434;
+}
+
+/* Showcase */
+
+#showcase {
+  background: url(/img/showcase.jpg) no-repeat center center/cover;
+  height: 600px;
+}
+
+#showcase #showcase-content {
+  text-align: center;
+  padding-top: 150px;
+}
+
+#showcase #showcase-content .overlay{
+  background: #3c84ce;
+  overflow: auto;
+  border-radius: 10px;
+  opacity: .9;
+}
+
+#showcase #showcase-content h1 {
+  color: #f4f7e4;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  margin-top: 20px;
+}
+
+#showcase #showcase-content p {
+  font-size: 1.2em;
+  color: #cceb34;
+}
+
+#showcase #showcase-content a{
+  margin: 40px 0;
+}
+
+#showcase #showcase-content a:hover {
+  color: #000000;
+  background: #eba434;
+}
+
+/* End Showcase */
+
+/* Home Info */
+
+#home-info {
+  height: 400px;
+  overflow: hidden;
+  background: #4d3b20;
+}
+
+#home-info #info-img {
+  background: url(../img/road.jpg) no-repeat center/cover;
+  float: left;
+  width: 50%;
+  min-height: 100%;
+}
+
+#home-info #home-history {
+  float: right;
+  overflow: hidden;
+  text-align: center;
+  width: 50%;
+  padding: 50px 40px;
+  height: 100%;
+}
+
+#home-info #home-history h2 {
+  font-size: 2em;
+  margin-bottom: 10px;
+}
+
+#home-info #home-history p {
+  font-size: 1.2em;
+  color: #f4f7e4;
+}
+
+#home-info #home-history a{
+  margin-top: 30px;
+}
+
+#home-info #home-history a:hover{
+  color: #000000;
+  background: #eba434;
+}
+
+/* End Home Info */
+
+/****** End Header *******/
+
+/* About */
+
+#about {
+  background: #cef0aa;
+}
+
+#about #about-left{
+  float: left;
+  height: auto;
+  width: 50%;
+  text-align: center;
+}
+
+#about #about-left img {
+  background: url(../img/photo1.jpg);
+  width: 70%;
+  border-radius: 40%;
+}
+
+
+#about #about-right {
+  background: #f4f7e4;
+  float: right;
+  width: 50%;
+  min-height: 100%;
+  border-radius: 40px;
+  text-align: center;
+  padding: 0 50px;
+  margin: 20px 0;
+}
+
+#about #about-info h2 {
+  margin: 35px 0;
+}
+
+#about #about-info p {
+  font-size: 1.2em;
+}
+
+/* End About */
+
+/* Testimonials */
+
+#testimonials {
+  text-align: center;
+  background: url(../img/road.jpg) no-repeat center center/cover;
+}
+
+#testimonials .testimonial {
+  display: inline-block;
+  margin: 20px 0;
+  background: #ffefb0;
+  text-align: center;
+  padding: 20px 0;
+}
+
+#testimonials h1 {
+  margin-top: 20px;
+}
+
+
+#testimonials .testimonial img {
+  float: left;
+  border-radius: 40px;
+  height: 100px;
+  width: auto;
+  margin-left: 20px;
+}
+
+#testimonials .testimonial p{
+  padding: 0 20px;
+}
+
+
+/* End Testimonials */
+
+
+/* Contact */
+
+form {
+  background: url(/img/road.jpg) no-repeat center/cover;
+  text-align: center;
+  width: auto;
+  height: 470px;
+  padding: 0 20px;
+}
+
+form h1 {
+  padding-top: 10px;
+  font-size: 2em;
+  color: #000000;
+}
+
+form .form-group {
+  width: 100%;
+}
+
+form label {
+  display: block;
+  font-size: 1.4em;
+  margin: 5px 0;
+}
+
+form input {
+  padding: 10px;
+}
+
+form input,
+form textarea {
+  width: 100%;
+  border: #000000 1px solid;
+}
+
+form input:focus,
+form textarea:focus {
+  outline: none;
+  border-color: #cceb34;
+}
+
+form button:hover{
+  color: #000000; 
+  background: #eba434;
+}
+
+form button {
+  margin-top: 10px 0;
+  display: block;
+}
+
+/* End Contact */
+
+
+
+/* Footer */
+
+footer {
+  text-align: center;
+  background: #333;
+  padding: 20px;
+  color: #fefefe;
+}
+
+/* End Footer */
